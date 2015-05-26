@@ -59,6 +59,7 @@ func main() {
 				"status": "failed",
 				"error":  "unable to query yelp api",
 			})
+			return
 		}
 
 		// create a new yelp client with the auth keys
@@ -80,10 +81,11 @@ func main() {
 				"status": "failed",
 				"error":  "unable to query yelp api",
 			})
+			return
 		}
 
+		// Everything worked!  Return the JSON from the yelp API to the client.
 		c.JSON(http.StatusOK, results)
-
 	})
 
 	// run the server
