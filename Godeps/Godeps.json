@@ -1,0 +1,45 @@
+{
+	"ImportPath": "github.com/JustinBeckwith/coffee",
+	"GoVersion": "go1.4.2",
+	"Deps": [
+		{
+			"ImportPath": "github.com/JustinBeckwith/go-yelp/yelp",
+			"Rev": "e0e1b550d545d9be0446ce324babcb16f09270f5"
+		},
+		{
+			"ImportPath": "github.com/JustinBeckwith/oauth",
+			"Rev": "a1577bd3870218dc30725a7cf4655e9917e3751b"
+		},
+		{
+			"ImportPath": "github.com/gin-gonic/contrib/static",
+			"Rev": "66a849e21d8f012522e3ee1c0e75615de80dfbfe"
+		},
+		{
+			"ImportPath": "github.com/gin-gonic/gin",
+			"Comment": "v1.0rc1-3-g992b00f",
+			"Rev": "992b00f96a99d1f2984a6052ee54b99202575afa"
+		},
+		{
+			"ImportPath": "github.com/guregu/null",
+			"Comment": "v2.1.1-5-g41fe781",
+			"Rev": "41fe781af5dd0b14980914a13e7921643517d00f"
+		},
+		{
+			"ImportPath": "github.com/manucorporat/sse",
+			"Rev": "b7eeebd8987e6b233e43db2551d43f71b2e115d5"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-colorable",
+			"Rev": "d67e0b7d1797975196499f79bcc322c08b9f218b"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "169f42267807fe93f4a4b0150583e410aefafe4e"
+		},
+		{
+			"ImportPath": "gopkg.in/bluesuncorp/validator.v5",
+			"Comment": "v5.2",
+			"Rev": "d780b124a9c9c2ae6fc3c43967d6d9ee304e8e28"
+		}
+	]
+}
