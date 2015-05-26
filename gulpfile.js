@@ -9,7 +9,7 @@ var uglify = require('gulp-uglify');
 var go;
 
 gulp.task("go-run", function() {
-  go = gulpgo.run("main.go", [], {cwd: __dirname, stdio: 'inherit'});
+  go = gulpgo.run("main.go", [], {cwd: __dirname, stdio: 'inherit', godep: true});
 });
 
 gulp.task("bower-files", function(){

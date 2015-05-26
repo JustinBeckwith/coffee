@@ -25,6 +25,7 @@ func main() {
 	r.GET("/", func(c *gin.Context) {
 		obj := gin.H{"titler": "Main website"}
 		c.HTML(http.StatusOK, "index.tmpl", obj)
+
 	})
 
 	r.GET("/GetCoffee", func(c *gin.Context) {
