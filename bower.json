@@ -1,0 +1,26 @@
+{
+  "name": "coffee",
+  "version": "1.0.0",
+  "authors": [
+    "Justin Beckwith <justin.beckwith@gmail.com>"
+  ],
+  "description": "A silly app I use to find coffee.",
+  "keywords": [
+    "go",
+    "coffee",
+    "gin"
+  ],
+  "license": "MIT",
+  "homepage": "jbeckwith.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fetch": "~0.8.2",
+    "es6-promise": "~2.1.0"
+  }
+}

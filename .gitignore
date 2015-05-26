@@ -1,0 +1,8 @@
+config.json
+coffee
+gin-bin
+node_modules/
+bower_components/
+public/lib/*
+public/css/*
+public/scripts/*
