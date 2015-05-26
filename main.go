@@ -67,6 +67,9 @@ func main() {
 
 		// search for all coffee near the given coordinates
 		searchOptions := yelp.SearchOptions{
+			GeneralOptions: &yelp.GeneralOptions{
+				Term: "coffee",
+			},
 			CoordinateOptions: &yelp.CoordinateOptions{
 				Latitude:         null.FloatFrom(lat),
 				Longitude:        null.FloatFrom(lon),
